@@ -1,1 +1,7 @@
 chapter 3
+
+In this chapter, git reminds us that what git actually does it create commits, much like a linked list (but not exactly), the same can also be said when git does branching, it simply a movable pointer to one of the commits made. Branching is basically isolating a feature from the main working branch mainly to streamline workflows or just avoid having to cause possible trouble on the main branch. Each created branch has their own snapshots of the commits made on them which are independent on other branches.
+
+The forward sections of the chapter explains how branches are created and managed, Git also tells how to transfer properly from one branch to another and how to propery manage these branches. Git also teaches bsic merging which merges braches together (for example bugfix branch merged to the main branch to address a bug in the main branch).
+
+When branches are push to the remote, a user can chose to push the branch along with it to create a remote branch. these remote branches work the same as the ones on local but only serves sort of like a mirror copy of the local branches in the online remote repository. These mirror copies can be fetched to update/merge branches. Finally, git tells us how to rebase to replay changes made by the branches after fetching to reflect on your working branch. During this process, git basically tells to always update branch states so that updates will not cause conflicts on thr files your are working on.
