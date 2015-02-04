@@ -1,1 +1,6 @@
 chapter 1
+
+
+chapter 1 basicallyt alks about git and what it does, how the system is better over traditional and old version controls system developed before it (local version control, etc.). It also talks about the origin of git and why it was created, the concept behind the creation of it and what principles that were strongly implemented for it the become a better system over the ones existed before it, how it is a better option for project management. The chapter also discusses about the inner workings of the system for the user to understand what are the things happening after keying some commands and what happens to the files and the changes made and how git makes snapshots what has been done over time. The chapter also explains how things happen locally through a series of states files go and how these local activities can be translated online.
+
+In the sections 1.4 and beyond, the documentation explains the things that makes git run and the basic environment it needs to run (the git command line), the things you need to do for a user to use it. The sections explains how to properly set up the git system, keying in your indentity to set it up and connect with your account, just setting the basic things up for it to be working.
