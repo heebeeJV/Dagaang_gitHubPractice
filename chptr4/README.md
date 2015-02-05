@@ -1,1 +1,9 @@
 chapter 4
+
+The first sections talks about the protocols used in version control systems, describing each of them and their pros and cons. These are mehods that users can use to set up and work with git or combinations of another protocol for a more secure authentication scheme (e.g. git together with SSH or HTTP).
+
+Next is how to set up git to work on servers (that you own, of course) and giving SSH access to these repositories for everyone, who doesn't have an account to work on with the repository. This type of workflow acheticture give more controls over permissions on your repositories. Things like creating a new user (giving them temporary credentials that can be changed later on) or creating a git user on the machine and specifiying who can write to the repository. Other methods aso include using SSH serving keys with other centralized authentication source that you may have already set up.
+
+Generation of SSH public key was next discussed and the steps on how to make them (and each user involved in the server repository). After setting up the SSH keys, the next thing that must be done is setting up the server side of the server repository. After setting up the serer, the next thing to set is up is the git daemon which serves repositories over the git protocol.
+
+In the last sections of the chapter, there was again a discussion on smart HTTP protocols which do the things dicussed before bot at the same time using an http backend on the server side. Of course you need an http server for this to run (like Apache for example). Lastly, GitWeb was discussed to provide users with visual representation of the things done inside the server repository. Using the previous configurations, git can set up a git web for worklow visualization on your server.
